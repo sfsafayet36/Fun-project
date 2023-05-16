@@ -1,4 +1,4 @@
-/* Dipjol Character code */
+/*Dipjol Character code */
 
 
 function cliCk(){
