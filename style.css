@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: lightyellow;
+}
+
+#mainbox{
+  height: 440px;
+  width: 80%;
+  border: 2px solid black;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightskyblue;
+}
+
+#heading{
+  font-size: 2.5rem;
+  margin: 5px 0;
+}
+
+.names{
+  display: flex;
+  font-size: 1.5rem;
+  
+}
+
+.name{
+  margin: 10px 70px;
+}
+
+
+.img{
+  height: 200px;
+  width: 200px;
+  margin: 0 15px;
+  border-radius: 50%;
+  border: 4px solid white;
+  
+}
+img:hover{
+  
+}
+
+
+
+#para{
+  font-size: 2rem;
+  
+  color: linen;
+  text-align: center;
+  margin: 15px;
+}
+
+#farmbox{
+  height: 600px;
+  width: 80%;
+  border: 2px solid black;
+  margin: 40px auto;
+}
+
+.farm-heading {
+  text-align: center;
+}
+
+#dipjol-farm{
+  height: 250px;
+  width: 90%;
+  border: 2px solid green;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#people-farm{
+height: 250px;
+  width: 90%;
+  border: 2px solid green;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.cow-img{
+  width: 120px;
+  height: 110px;
+  margin: 0 10px;
+  border-radius: 5px
+}
+
+#img-1, #img-2, #img-3, #img-4, #img-5, #img-6, #img-7, #img-8{
+  display: none;
+}
